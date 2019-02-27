@@ -33,3 +33,6 @@ def available_in(stock, demand):
             return False
 
     return True
+
+def filter_list(a_function, a_list):
+    return list(filter(a_function, a_list))
